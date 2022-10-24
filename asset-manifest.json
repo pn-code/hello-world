@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hello-world/static/css/main.624449cc.css",
+    "main.js": "/hello-world/static/js/main.800325c3.js",
+    "static/media/login.png": "/hello-world/static/media/login.4e2e3413b3d48ed6fa44.png",
+    "static/media/emoji.svg": "/hello-world/static/media/emoji.5c163d6482a789268eab40474673c3fe.svg",
+    "static/media/heart.svg": "/hello-world/static/media/heart.4e0846b50d43c51cfeb407e113542275.svg",
+    "static/media/comment.svg": "/hello-world/static/media/comment.62a8d545ce7f5932bfe4c2d3028f33e2.svg",
+    "static/media/home.svg": "/hello-world/static/media/home.eb8734f568d159819859754a575e9101.svg",
+    "static/media/profile.svg": "/hello-world/static/media/profile.e086d75cbf86ca590b1ad1bc1e83083a.svg",
+    "index.html": "/hello-world/index.html",
+    "static/media/inbox.svg": "/hello-world/static/media/inbox.7fa1ed054c1416955546a9dfdba985c3.svg",
+    "static/media/dots.svg": "/hello-world/static/media/dots.f8e6b753a5c3a712103c09ce204cbbdf.svg",
+    "static/media/compose.svg": "/hello-world/static/media/compose.42c8d1ea2b19d13d90a6f4abd83c9a59.svg",
+    "main.624449cc.css.map": "/hello-world/static/css/main.624449cc.css.map",
+    "main.800325c3.js.map": "/hello-world/static/js/main.800325c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.624449cc.css",
+    "static/js/main.800325c3.js"
+  ]
+}
