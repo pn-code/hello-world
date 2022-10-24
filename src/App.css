@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+}
+
+.Login {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 8px;
+    margin-bottom: 30px;
+    border-bottom: 1px gray solid;
+    position: sticky;
+    width: 100%;
+    height: 8vh;
+    top: 0;
+    background-color: white;
+}
+
+.Navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.Navbar .search-bar {
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 8px;
+    padding-left: 2%;
+    background-color: rgb(240, 240, 240);
+    color: rgb(65, 65, 65);
+    border: none;
+}
+
+.Navbar ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(65, 65, 65);
+    opacity: 1; /* Firefox */
+}
+  
+.Navbar :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(65, 65, 65);
+}
+  
+.Navbar ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(65, 65, 65);
+}
+
+@media(max-width: 600px) {
+    .Navbar .search-bar {
+        visibility: hidden;
+    }
+}
+
+.nav--links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    min-height: 40px;
+}
+
+.nav--links img {
+    height: 30px;
+    width: 30px;
+}
+
+.nav--links button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.Inbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inbox--container {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 80vh;
+}
+
+.inbox--header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20%;
+    border-bottom: 1px solid gray;
+    width: 30vh;
+}
+
+.inbox--left {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid gray;
+    padding-right: 10%;
+}
+
+.inbox--left button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    margin-right: 5%;
+}
+
+.inbox--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 8%;
+}
+
+.Message {
+    display: flex;
+    gap: 16%;
+    padding-inline: 10%;
+    padding-block: 5px;
+}
+
+.Message img {
+    width: 50px;
+}
+
+.Message:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+.posts--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Post {
+    margin-bottom: 2%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-inline: 6vh;
+    padding-block: 3vh;
+}
+
+.Post .top--section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3%;
+}
+
+.Post .poster--info {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.Post .action-bar {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding-block: 4px;
+}
+
+.Post .action-bar button {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: none;
+}
+
+.Post .likes-counter, .post-description, .comments-section {
+    margin-bottom: 10px;
+}
+
+.Post .comments-section {
+    color:rgb(107, 107, 107);
+    background-color: white;
+    padding: 0;
+    border: none;
+}
+
+.Post .user-comment--section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.Post .user-comment--section input {
+    border: none;
+    width: 72%;
+    height: 4vh
+}
+
+.Post .user-comment--section button {
+    border: none;
+    background-color: white;
+}
+
+.Post .post-comment-btn {
+    color: rgb(0, 110, 255);
+    font-weight: 600;
+}
+
+.Post .poster--info img {
+    width: 36px;
+}
+
+.Post .more-btn {
+    width: 36px;
+    background-color: white;
+    border: none;
+}
+
+.Profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.Profile .profile--container {
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+    padding-bottom: 20px;
+    border-bottom: 1px gray solid;
+}
+
+.Profile .profile--container img {
+    height: 150px;
+}
+
+.Profile .username {
+    font-size: 1.5rem;
+}
+
+.Profile .profile--stats  {
+    display: flex;
+    gap: 30px;
+    font-size: 1.2rem;
+}
+
+.Profile .profile--navbar {
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media (max-width: 800px) {
+    .Profile .profile--navbar {
+        justify-content: space-between;
+    }
+
+    .Profile .profile--navbar button {
+        height: 50px;
+        width: 33%;
+    }
+}
